@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1402110997 source:e:\法方c语言\hit_bricks\main.c
+	"SDL/SDL.h"
+	"SDL/SDL_image.h"
+	"SDL/SDL_mixer.h"
+	<string.h>
+	"prepare.h"
+	"move.h"
+	"time.h"
+
+1402658243 source:e:\法方c语言\hit_bricks\move.c
+	"SDL/SDL.h"
+	"SDL/SDL_image.h"
+	"SDL/SDL_mixer.h"
+	<string.h>
+	"prepare.h"
+	"move.h"
+
+1402110997 source:e:\法方c语言\hit_bricks\prepare.c
+	"SDL/SDL.h"
+	"SDL/SDL_image.h"
+	"SDL/SDL_mixer.h"
+	<string.h>
+	"prepare.h"
+	"move.h"
+
+1402110768 e:\法方c语言\hit_bricks\prepare.h
+
+1401955144 e:\法方c语言\hit_bricks\move.h
+
+1401943011 e:\法方c语言\hit_bricks\time.h
+
+1401943011 source:e:\法方c语言\hit_bricks\time.c
+

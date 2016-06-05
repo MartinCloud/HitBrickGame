@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="Hit_Bricks_Game" />
+		<Option title="HIT_BRICKS" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/Hit_Bricks_Game" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/HIT_BRICKS" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="0" />
 				<Option compiler="gcc" />
@@ -16,9 +16,9 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/Hit_Bricks_Game" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/HIT_BRICKS" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
-				<Option type="1" />
+				<Option type="0" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
@@ -31,8 +31,21 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="move.cpp" />
-		<Unit filename="picture.cpp" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="move.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="move.h" />
+		<Unit filename="prepare.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="prepare.h" />
+		<Unit filename="time.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="time.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
