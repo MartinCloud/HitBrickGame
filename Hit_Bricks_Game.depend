@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1402107876 source:e:\法方c语言\hit_bricks_game\picture.cpp
+	"SDL/SDL.h"
+	"SDL/SDL_image.h"
+	"SDL/SDL_ttf.h"
+	"SDL/SDL_mixer.h"
+	<string>
+
+1401701867 source:e:\法方c语言\hit_bricks_game\move.cpp
+
